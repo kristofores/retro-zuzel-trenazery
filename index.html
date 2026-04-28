@@ -76,9 +76,13 @@
 
         // Konfiguracja środowiska (dostarczana przez środowisko, lub fallback)
         const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {
-            // W środowisku produkcyjnym tu znajdą się klucze. 
-            // Gra zabezpieczona jest regułami środowiska.
-        };
+  apiKey: "AIzaSyASSqM1cn4pO1SF3wpDfv-53tdiYkLVi7E",
+  authDomain: "zuzel-trenazery.firebaseapp.com",
+  projectId: "zuzel-trenazery",
+  storageBucket: "zuzel-trenazery.firebasestorage.app",
+  messagingSenderId: "292949617155",
+  appId: "1:292949617155:web:00cec5cac778acf6227c36"
+};
         const appId = typeof __app_id !== 'undefined' ? __app_id : 'retro-zuzel-app';
 
         // Logika Gry i Stany
